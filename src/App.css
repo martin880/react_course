@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+	color: #fff;
+	background-color: #5986ed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.judul {
+	color: #fff;
+	background-color: #59ede1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* CSS */
+.btn {
+	background-color: #0095ff;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+		sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.15385;
+	margin: 10px auto;
+	outline: none;
+	padding: 8px 0.8em;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: baseline;
+	white-space: nowrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover,
+.btn:focus {
+	background-color: #07c;
+}
+
+.btn:focus {
+	box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.btn:active {
+	background-color: #0064bd;
+	box-shadow: none;
 }
